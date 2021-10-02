@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form-Assignment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h2>Table-Form Assignment!</h2>
+        <table border="1">
+            <form>
+                <tr>
+                    <th>Name</th>
+                    <th>Value</th>
+                </tr>
+                <tr>
+                    <td>Name</td>
+                    <td><input type="text" placeholder="Enter Your Name"></td>
+                </tr>
+                <tr>
+                    <td>Sex</td>
+                    <td>
+                        <input type="radio" id="male" name="gender" value="male">
+                        <label for="male">Male</label><br>
+                        <input type="radio" id="other" checked="checked" name="gender">
+                        <label for="female">Female</label>
+                    </td>
+
+                </tr>
+                <tr>
+                    <td>Eye color</td>
+                    <td>
+                        <select name="devices">
+                            <option value="red">Red</option>
+                            <option value="blue" selected="selected">Blue</option>
+                            <option value="green">Green</option>
+                            <option value="black">Black</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Check all that apply </td>
+                    <td>
+                        <input type="checkbox" name="overfall" value="overfall">
+                        <label for="overfall">Over 6 feet tall</label><br>
+                        <input type="checkbox" name="overfalls" value="overfalls">
+                        <label for="overfalls">Over 200 pounds</label><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3">Describe Your atheletic ability</td>
+                </tr>
+                <br>
+                <tr>
+                    <td colspan="3">
+                        <textarea name="message" rows="8" cols="30">
+                        Enter Your Comments!
+                        </textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3"><button>Enter My Information!</button></td>
+                </tr>
+            </form>
+        </table>
+    </div>
+</body>
+
+</html>
